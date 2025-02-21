@@ -1,1 +1,20 @@
-spring.application.name=Consumer-Spring-Kafka
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gambalonga
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  kafka:
+    bootstrap-servers: localhost:9092
+    consumer:
+      group-id: grupo-consumidor
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+server:
+  port: 8081
