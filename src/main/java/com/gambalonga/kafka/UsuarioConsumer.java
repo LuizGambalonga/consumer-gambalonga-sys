@@ -1,7 +1,7 @@
 package com.gambalonga.kafka;
 
-import com.gambalonga.model.UsuarioModel;
-import com.gambalonga.repository.UsuarioRepository;
+import com.gambalonga.usuario.model.UsuarioModel;
+import com.gambalonga.usuario.repository.UsuarioRepository;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
