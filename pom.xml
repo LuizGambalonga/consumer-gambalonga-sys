@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gambalonga</groupId>
-	<artifactId>kafka-consumer-usuario</artifactId>
+	<artifactId>consumer-usuario-gambalonga-sys</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>consumer-usuario-gambalonga-sys</name>>
+	<name>consumer-usuario-gambalonga-sys</name>
 	<description>Projeto Estudo Utilizando Kafka</description>
 
 	<properties>
