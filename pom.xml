@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.gambalonga</groupId>
-	<artifactId>Consumer-Spring-Kafka</artifactId>
+	<artifactId>kafka-consumer-usuario</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Consumer-Spring-Kafka</name>
-	<description>Projeto Demonstracao usando Kafka</description>
+	<name>consumer-usuario</name>>
+	<description>Projeto Estudo Utilizando Kafka</description>
 
 	<properties>
 		<java.version>17</java.version>
