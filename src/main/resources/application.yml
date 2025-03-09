@@ -16,5 +16,10 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
 
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/gambalonga
+      database: gambalonga
+
 server:
   port: 8081
