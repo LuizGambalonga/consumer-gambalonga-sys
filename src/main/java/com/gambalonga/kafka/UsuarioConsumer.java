@@ -21,7 +21,7 @@ public class UsuarioConsumer {
     public void ativarUsuario(String email) {
         UsuarioModel usuario = usuarioRepository.findByEmail(email).orElse(null);
         if (usuario != null) {
-            usuario.setAtivo(ATIVADO);
+            usuario.setAtivo(ATIVADO.getValor());
             usuarioRepository.save(usuario);
         }
     }
